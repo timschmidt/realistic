@@ -8,3 +8,10 @@ edition = "2024"
 
 [dependencies]
 num = { version = "0.4.3", features = ["num-bigint"] }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "realistic_operations"
+harness = false
